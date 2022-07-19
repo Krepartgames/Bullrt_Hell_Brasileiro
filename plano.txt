@@ -1,0 +1,15 @@
+Problemas:
+1. atirar e parar de atirar com o mesmo botão
+2. destruir tudo com a bomba
+3. ficar mais rapido com o tempo
+4. padrão de inimigos
+5. inimigo atirar varios tiros
+
+solução:
+1: keypressed(criar bala e atirar seguido)
+2: keypressed(destuir balas do inimigo e o inimigo, tiro mais forte temporario)
+cada inimigo tera que estar em um grupo e as balas tambem (destruir com destroyEach).
+ter marcador para bombaLançada que fica ativo por alguns segundos apos lançamento da bomba(enquanto ele for true o tiro vale mais)
+3: mudar intervalo do setInterval(definir intervale com variavel para mudar ao longo do jogo)
+4: por tempo setInterval
+5: para tiros continos usar setInterval, para varios tiros ao mesmo tempo usar loop mudando posição.
